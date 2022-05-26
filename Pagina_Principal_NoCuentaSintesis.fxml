@@ -36,8 +36,6 @@
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -80,12 +78,6 @@
                   <Image url="@facebook.png" />
                </image>
             </ImageView>
-            <TableView layoutX="55.0" layoutY="347.0" prefHeight="511.0" prefWidth="1090.0">
-              <columns>
-                <TableColumn prefWidth="75.0" text="C1" />
-                <TableColumn prefWidth="75.0" text="C2" />
-              </columns>
-            </TableView>
       </children>
     </AnchorPane>
   </children>
